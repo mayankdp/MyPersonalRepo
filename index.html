@@ -1,11 +1,137 @@
+<!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="index.css">
+
 <body>
-  1. Mayank Patel <br>
-  2. Experience (option a link to a new page or a new spot on the current page) <br> 
-  2a. List experiences and provide detail. (include videos, links, etc.)<br>
-  3. Awards <br> 
-  4. Education <br> 
-  5. Skills <br>
-  6. Other
+  <header>
+    <!-- class="row"<div class="column left">
+      <img src="assets/my_pic.jpeg" style="width:150px;height:150px;" />
+    </div> 
+    <div class="column right">-->
+
+    <h1>Mayank Patel</h1>
+    <h3>(803) 528-2506 | mpatel9.com@gmail.com </h3>
+
+    <!-- Icon coppied from https://www.scrapersnbots.com/blog/general/how-to-add-linkedin-icon-in-html.php-->
+    <div class="LinkedInIcon" onclick="window.open('https://www.linkedin.com/in/mpatel-9/');" title="LinkedIn Profile">
+      in
+    </div>
+
+    <!-- Icon coppied from https://icons.getbootstrap.com/icons/github/-->
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-github"
+      id="githubIcon" onclick="window.open('https://github.com/mayankdp');" title="GitHub Profile" viewBox="0 0 18 13">
+      <path
+        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+    </svg>
+  </header>
+
+  <ul class="mainUL">
+    <!--  (option a link to a new page or a new spot on the current page) <br>
+  2a. List experiences and provide detail. (include videos, links, etc.)<br>-->
+
+    <!--Experience section-->
+    <li class="mainBullet">Experience:</li>
+    <ul>
+      <li class="expBullet">GitHub Open-Source Contributor:</li>
+      <ul>
+        <li>Website: <a class="cougarcs" onclick="window.open('https://cougarcs.com/');"><u>CougarCS</u></a> - Bootstrap
+          |
+          React-hook-form |
+          SendGrid | Stripe | Axios | ESLint | Cypress
+        </li>
+        <li>Developed signed up function for weekly newsletter without being a member of that website.</li>
+        <li>Developed backend for storing emails and send email to all user at once.</li>
+      </ul>
+      <li class="expBullet">Research Assistant, University of South Carolina</li>
+      <ul>
+        <li>Name: SCCovid – JavaScript | HTML5 | React Native Expo | Node.JS | CSS</li>
+        <li>Developed an app using the firebase backend to the need of U of SC Big Data Health Science Center</li>
+        <li>For UI design, we used the react-native-paper material design library with many other libraries</li>
+        <li>Implemented functions like Assessment test with risk count, daily news, daily COVID-19 cases tracking</li>
+        <li>Created other functions like viewing cases by county, nearby testing locations, login/logout/signup
+          functions</li>
+        <li>Collected data from users through survey/assessment and managing them on firebase</li>
+      </ul>
+      <li class="expBullet">Computer Support Assistant, University of South Carolina</li>
+      <ul>
+        <li>Assisted IT Manager with troubleshooting problems, installing hardware and software</li>
+        <li>Built new computers, and other general lab duties like fixing projector</li>
+        <li>Gained knowledge about computer hardware. Learnt to write scripts and create scripts for making work easy
+        </li>
+        <li>Developed my communication skills for day-to-day activity with an optimistic mindset</li>
+        <li>Maintained a clean work environment at work. Strong ability to learn new skills and desires</li>
+      </ul>
+    </ul>
+
+    <!--Awards section-->
+    <li class="mainBullet">Awards:</li>
+    <ul>
+      <li>AWS Academy Graduate – AWS Academy Cloud Foundations & Architecture</li>
+      <li>U of SC Dean’s list: Spring 2018 & Spring 2019 & Spring 2020 &Fall 2020</li>
+    </ul>
+
+    <!--Education Section-->
+    <li class="mainBullet">Education:</li>
+    <ul>
+      <li class="expBullet">
+        Clemson University (GPA: 3.71) August 2021 – December 2022
+      </li>
+      <ul>
+        <li>Master of Science in Computer Science – Software Engineering</li>
+      </ul>
+      <li class="expBullet">
+        University of South Carolina (Double Major) (GPA: 3.621) August 2016 – May 2021
+      </li>
+      <ul>
+        <li>Bachelor of Science in Computer Science (GPA: 3.808)</li>
+        <li>Bachelor of Science in Mathematics (GPA: 3.43)</li>
+      </ul>
+    </ul>
+
+    <!--Skills section-->
+    <li class="mainBullet">Skills:</li>
+    <ul>
+      <li class="expBullet">Languages:</li>
+      <ul class="skillsClass">
+        <li>JavaScript</li>
+        <li>Typescript</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>Specifications</li>
+      </ul>
+      <ul class="skillsClass">
+        <li>NodeJS</li>
+        <li>CSS</li>
+        <li>R</li>
+        <li>Unix-Linux</li>
+        <li>Python</li>
+        <li>C</li>
+      </ul>
+      <li class="expBullet">Tools:</li>
+      <ul class="skillsClass">
+        <li>Terminal</li>
+        <li>GitHub</li>
+        <li>Visual Studio Code</li>
+        <li>Overleaf</li>
+        <li>Firebase</li>
+      </ul>
+      <ul class="skillsClass">
+        <li>RESOLVE</li>
+        <li>Microsoft office</li>
+        <li>XCode</li>
+        <li>RStudio</li>
+        <li>Mars</li>
+      </ul>
+    </ul>
+
+    <!--Other Section-->
+    <li class="mainBullet">Other:</li>
+  </ul>
+
+  <footer>
+    <small>&copy; Copyright 2022, Mayank Patel</small>
+  </footer>
 </body>
+
 </html>

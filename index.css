@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: rgba(152, 46, 194, 0.655);
+}
+header {
+    background-color: rgb(109, 6, 150);
+    text-align: center;
+    padding: 10px;
+    border-style: solid;
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+h1 {
+    font-size: 45px;
+    color: orange;
+}
+h3 {
+    color: orange;
+}
+.mainUL {
+    background-color: rgb(158, 18, 214);
+    border-style: solid;
+    margin-top: 225px;
+    margin-bottom: 45px;
+}
+.mainBullet {
+    font-size:x-large;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.expBullet {
+    font-weight: bold;
+}
+.cougarcs {
+    font-style: oblique;
+    color: rgb(3, 83, 173);
+}
+.skillsClass {
+    display: inline-block;
+}
+footer {
+    background-color: rgb(216, 84, 13);
+    color: rgb(109, 6, 150);
+    padding: 10px;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top-style: solid;
+}
+.column {
+    float: left;
+    text-align: center;
+}
+.left {
+    width: 25%;
+}
+.right {
+    width: 75%;
+    text-align: center;
+}
+.row {
+    display: table;
+    width: 100%;
+}
+
+.LinkedInIcon {
+    background-color:rgb(0, 102, 170);
+    border-radius:6px;
+    color:white;
+    cursor:pointer;
+    display:inline-block;
+    font:bold 35px Arial, Helvetica, sans-serif;
+    height:40px;
+    width:40px;
+    margin-top:1px;
+    text-align:center;
+}
+.LinkedInIcon:hover {
+    background-color:#06d;
+}
+#githubIcon:hover {
+    color:rgb(16, 19, 23);
+}
