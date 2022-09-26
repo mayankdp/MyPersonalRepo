@@ -1,75 +1,44 @@
-* {
-    box-sizing: border-box;
+body { 
+    font-family: 'Times New Roman', Times, serif;
   }
-body{
-    /* font-family: Arial, Helvetica, sans-serif; */
-    background-color: rgba(152, 46, 194, 0.655);
-}
-header {
-    background-color: rgb(109, 6, 150);
-    text-align: center;
-    padding: 10px;
-    border-style: solid;
-    position:fixed;
-    left: 0;
+  .top-container {
+    background-color: #f1f1f1;
+    padding: 100px;
+  }
+  .nav {
+    background-color: aquamarine;
+    color: antiquewhite;
+    font-size: x-large;
+    text-align: end;
+    position: fixed;
     top: 0;
     width: 100%;
-}
-h1 {
-    font-size: 45px;
-    color: orange;
-}
-h3 {
-    color: orange;
-}
-.mainUL {
-    background-color: rgb(158, 18, 214);
-    border-style: solid;
-    margin-top: 225px;
-    margin-bottom: 45px;
-}
-.mainBullet {
-    font-size:x-large;
-    font-weight: bolder;
-    margin-top: 5px;
-}
-.expBullet {
-    font-weight: bold;
-}
-.cougarcs {
+  }
+  .experience {
+    text-align: center;
+    font-size: 60px;
     font-style: oblique;
-    color: rgb(3, 83, 173);
-}
-.skillsClass {
-    display: inline-block;
-}
-footer {
-    background-color: rgb(216, 84, 13);
+    margin-top: 8%;
+    margin-bottom: 3%;
+  }
+  .otherSections {
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .footerSite {
+    background-color:aquamarine;
     color: rgb(109, 6, 150);
-    padding: 10px;
+    text-align: center;
+    /* border-top-style: solid; */
+    width: 100%;
     position:fixed;
-    left: 0;
     bottom: 0;
-    width: 100%;
-    text-align: center;
-    border-top-style: solid;
+    padding: 10px;
+    font-size: medium;
 }
-.column {
-    float: left;
-    text-align: center;
-}
-.left {
-    width: 25%;
-}
-.right {
-    width: 75%;
-    text-align: center;
-}
-.row {
-    display: table;
-    width: 100%;
-}
-
 .LinkedInIcon {
     background-color:rgb(0, 102, 170);
     border-radius:6px;
@@ -79,7 +48,8 @@ footer {
     font:bold 35px Arial, Helvetica, sans-serif;
     height:40px;
     width:40px;
-    margin-top:1px;
+    margin-top:5px;
+    margin-right: 1%;
     text-align:center;
 }
 .LinkedInIcon:hover {
