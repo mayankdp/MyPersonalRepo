@@ -57,4 +57,11 @@ body {
 }
 #githubIcon:hover {
     color:rgb(16, 19, 23);
+    cursor: pointer;
+}
+#linkableCard:hover {
+    cursor: pointer;
+}
+#topOption:hover {
+    background-color: antiquewhite;
 }
