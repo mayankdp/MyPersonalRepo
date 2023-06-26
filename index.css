@@ -14,7 +14,10 @@ body {
   background-color: antiquewhite;
 }
 .top-container {
-  background-color: #f1f1f1;
+  /* background-image: url("assets/clemsonIcon.png"); */
+  /* background-size: 10%; */
+  background-color: antiquewhite;
+  /* background-color: #4134f2; */
   padding: 100px;
 }
 .LinkedInIcon {
